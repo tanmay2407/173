@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="3D Robot using A-frame "
+        content="this is my whjr project 146 form professinal classes this robot eyes moves up and down and antina left to right">
+    <title>3d Robot | A-frame</title>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"> </script>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+</head>
+    <a-scene>
+        <a-entity>
+            <a-sky color="black"></a-sky>
+        </a-entity>
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+        <a-entity>
+            <a-box position="0 1 0" width="1" height="3" color="blue"></a-box>
+        </a-entity>
+        <a-entity>
+            <a-box position="3 1 0" width="1" height="3" color="blue"></a-box>
+        </a-entity>
+        <a-entity>
+            <a-box position="1.5 4 0" width="4" height="4" color="red"></a-box>
+        </a-entity>
+        <a-entity>
+            <a-box position="1.5 5 0" width="1" height="4" color="orange"></a-box>
+        </a-entity>
+        <a-entity>
+            <a-box position="1.5 8 0" width="2" height="2"color="indigo"></a-box>
+        </a-entity>
+        <a-entity>
+            <a-box position="4 5.5 0" rotation="0 0 90" width="1" height="5" color="yellow"></a-box>
+        </a-entity>
+         <a-entity>
+            <a-box position="-1 5.5 0" width="1" rotation="0 0 90" height="5" color="purple"></a-box>
+        </a-entity>
+        <a-entity>
+            <a-box position="1.5 7.4 0.2" width="1"  height="0.3" color="black"></a-box>
+        </a-entity>
+        <!-- animation -->
+        <a-entity position="0 0 0" rotation="0 0 0" animation="property:position;from:1 8.2 0;to:1 8.4 0;direction:alternate;loop:true;dur:2000">
+            <a-box position="1 8.2 0.2"  width="0.3" height="0.3" color="black" ></a-box>
+        </a-entity>
+        <a-entity position="0 0 0" rotation="0 0 0" animation="property:position;from:2 8.2 0;to:1 8.4 0;direction:alternate;loop:true;dur:2000">
+            <a-box position="2 8.2 0.2" width="0.3"  height="0.3" color="black"></a-box>
+        </a-entity>
+        <a-entity position="0 0 0" rotation="0 0 0" animation="property:position;from:1.5 9.5 0;to:1.7 9.5 0;direction:alternate;loop:true;dur:2000">
+            <a-box position="1.5 9.5 0" width="0.3"  height="0.3" color="green"></a-box>
+        </a-entity>
+
+        
+    </a-scene>
+<body>
+
+</body>
+
+</html>
